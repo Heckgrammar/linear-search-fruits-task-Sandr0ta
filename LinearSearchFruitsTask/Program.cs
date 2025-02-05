@@ -13,6 +13,18 @@
             
             // You must write your own linear search routine and not use any built-in fuctions available in C#
             // You should use meaningful variable names
+
+            Console.WriteLine("Enter the fruit you want to find");
+            string fruitToFind = Console.ReadLine()
+
+            bool Found = false;
+            for (int i = 0; i < fruits.Length; i++)
+            {
+                if (fruits[i] == fruitToFind)
+                {
+                    Found = true;
+                    break;
         }
     }
+            Console.WriteLine(Found);
 }
